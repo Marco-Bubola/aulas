@@ -1,0 +1,48 @@
+body{
+    background-color: #c0c0c0;
+}
+#cadastro fieldset{
+    width: 800px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+#autor fieldset{
+    width: 300px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+#autor fieldset legend{
+    padding: 10px;
+    background-color: cadetblue;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#cadastro fieldset legend{
+    padding: 10px;
+    background-color: cadetblue;
+    font-family: Arial;
+    font-size: 30px;
+}
+#cadastro fieldset label{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#cadastro fieldset input{
+    background-color: white;
+    border: 0px;
+}
+#news{
+    font-family: Arial;
+    font-size: 12px;
+    color:#c0c0c0;
+}
+#news b{
+    font-family: Arial;
+    font-size: 16px;
+    color:#c0c0c0;
+}

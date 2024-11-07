@@ -1,0 +1,17 @@
+{
+    "name": "marco/16",
+    "autoload": {
+        "psr-4": {
+            "Marco\\16\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco",
+            "email": "marcobubola@hotmail.com"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^5.0"
+    }
+}
