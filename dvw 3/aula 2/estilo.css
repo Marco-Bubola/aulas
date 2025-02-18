@@ -1,0 +1,43 @@
+body { 
+    background:url(img/bg_site.jpg);
+}
+#topo {
+    background: url(img/bg_topo.jpg) bottom repeat-x;	
+    height:120px;
+    margin-bottom:10px;
+}
+#logomarca {
+    float: right;
+}
+
+#menu-principal {
+    padding-top:40px;
+}
+#meuSlider{
+    border: 2px solid #888;
+}
+h1{
+
+}
+h2{
+    color: #000093;
+    text-transform: uppercase;
+    font-size: 20px;    
+    margin-top: 30px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #888; 
+}
+h3{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#rodape {
+    background-color: #999;
+    text-align: center;
+    padding: 6px;
+}
+h4{
+    font-size: 14px;
+    color: #FFF;
+    font-style: italic;
+}
