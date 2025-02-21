@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="estilo.css">
     <title>Heróis DC Comics</title>
   </head>
   <body>
@@ -18,9 +18,36 @@
                 <div id="logomarca">
                     <h1>Heróis DC Comics</h1>
                     <a href="pagina2.html">
-                        <img src="#" width="320" height="112">
+                        <img src="img/dc-logo.png" width="320" height="112">
                     </a>
-                </div>            
+                   
+                </div>   
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Serie</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Quadrinhos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Jogos</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+                       
             </div>
         </div>
     </div>
@@ -32,12 +59,17 @@
                     <!-- SLIDESHOW -->          
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <!-- Slides -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                           
+                          </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                              <img src="#" alt="Primeiro Slide" class="d-block w-100">
+                              <img src="img/slider/esquadrao-suicida.jpg" alt="Primeiro Slide" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
-                              <img src="#" alt="Segundo Slide" class="d-block w-100">
+                              <img src="img/slider/liga-justica.jpg" alt="Segundo Slide" class="d-block w-100">
                             </div>
                         </div>        
                         <!-- Controls -->
@@ -54,10 +86,20 @@
             </div>
                 
             <!-- IMAGES -->
-                
-            <div class="row">               
-                <div class="col-md-2">
-                    <h2>Bloco 1</h2>
+            <i class="fa-regular fa-calendar"></i>
+            <div class="row">     
+                <div class="col-md-3">
+                    <h2>Series</h2>
+                    <figure class="img-thumbnail">
+                        <img class="figure-img img-fluid" src="img/pacificador.jpeg" alt="Serie do Pacificador">
+                        <figcaption class="figure-caption">
+                            <h3>Pacificador</h3>
+                            <p>Assista agora aserie do pacificador na HBO.</p>
+                        </figcaption>
+                    </figure>
+                </div>          
+                <div class="col-md-3">
+                    <h2>Filmes</h2>
                     <figure class="img-thumbnail">
                         <img class="figure-img img-fluid" src="img/filme.jpg" alt="Filme Mulher Maravilha">
                             <figcaption class="figure-caption">
@@ -66,8 +108,8 @@
                             </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-6">
-                    <h2>Bloco 2</h2>
+                <div class="col-md-3">
+                    <h2>Quadrinhos</h2>
                     <figure class="img-thumbnail">
                     <img class="figure-img img-fluid" src="img/quadrinhos.jpg" alt="Filme Mulher Maravilha">
                         <figcaption class="figure-caption">
@@ -76,8 +118,8 @@
                         </figcaption>
                     </figure>
                 </div>
-                <div class="col-md-8">
-                    <h2>Bloco 3</h2>
+                <div class="col-md-3">
+                    <h2>Jogos</h2>
                     <figure class="img-thumbnail">
                     <img class="figure-img img-fluid" src="img/jogos.jpg" alt="Filme Mulher Maravilha">
                         <figcaption class="figure-caption">

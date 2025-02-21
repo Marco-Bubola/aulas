@@ -15,8 +15,13 @@ body {
 }
 #meuSlider{
     border: 2px solid #888;
+
+}
+.container{
+    width: 970px;
 }
 h1{
+    display: none;
 
 }
 h2{
